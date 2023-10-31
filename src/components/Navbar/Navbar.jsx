@@ -13,7 +13,7 @@ function Navbar() {
       </div>
       <div className={styles.linksContainer}>
         <div className={styles.navbarLinks}>
-          <img src={railsImage} alt="raisl-world-2023-image" />
+          <img src={railsImage} alt="rails-world-2023-image" />
         </div>
         <div className={styles.myLinks}>
             <ul>
@@ -26,7 +26,7 @@ function Navbar() {
                 <li>
                     <a href="/faqs">FAQs</a>
                 </li>
-                <li><button>View all videos</button></li>
+                <li> <a><button>View all videos</button> </a></li>
             </ul>
          
         </div>

@@ -27,6 +27,11 @@
     background-color: green;
 }
 
+.navbarLinks{
+    background-color: blueviolet;
+    width: 50%;
+}
+
 .navbarLinks img{
     background-color: grey;
     margin-top: 15px;
@@ -38,11 +43,33 @@
 .myLinks{
     display: flex;
     flex-direction: row;
-    background-color: green;
+    background-color: purple;
 }
 
-.myLinks a{
-    margin-left: 0;
+.myLinks ul{
     background-color: blue;
+    display: flex;
+    flex-direction:row;
+}
+
+.myLinks ul li{
+    /* background-color: yellow; */
+    list-style: none;
+}
+
+.myLinks ul li a{
+    background-color: aqua;
+    margin: 25px 10px;
+    color: var(--color-text);
+    font-weight: 600;
+    font-size: 30px;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.myLinks button{
+    padding: 8px 30px;
+    font-size: 16px;
+    color: var(--color-text);
 }
 
