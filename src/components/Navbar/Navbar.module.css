@@ -24,12 +24,12 @@
     border: 1px solid white;
     border-left: none;
     border-right: none;
-    background-color: green;
+    /* background-color: green; */
 }
 
 .navbarLinks{
-    background-color: blueviolet;
-    width: 50%;
+    /* background-color: blueviolet; */
+    width: 60%;
 }
 
 .navbarLinks img{
@@ -43,11 +43,11 @@
 .myLinks{
     display: flex;
     flex-direction: row;
-    background-color: purple;
+    /* background-color: purple; */
 }
 
 .myLinks ul{
-    background-color: blue;
+    /* background-color: blue; */
     display: flex;
     flex-direction:row;
 }
@@ -58,7 +58,7 @@
 }
 
 .myLinks ul li a{
-    background-color: aqua;
+    /* background-color: aqua; */
     margin: 25px 10px;
     color: var(--color-text);
     font-weight: 600;
@@ -71,5 +71,21 @@
     padding: 8px 30px;
     font-size: 16px;
     color: var(--color-text);
+    background-color: #3B1D62;
+    border: 1px solid white;
+    /* font-family: "acumin-variable"; */
+}
+
+@media screen and (max-width: 768px){
+    .linksContainer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navbarLinks{
+        text-align: center;
+        justify-content: center;
+    }
+    
 }
 

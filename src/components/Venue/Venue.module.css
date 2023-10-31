@@ -1,0 +1,27 @@
+.container{
+    text-align: center;
+    justify-content: center;
+}
+
+.venue{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    border-top: none;
+    margin: 0px 5%;
+    color: var(--color-text);
+    background-color: aqua;
+}
+
+.venue h1{
+    background-color: blueviolet;
+    margin-top: 100px;
+    padding: 10px;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.venue p{
+    background-color: blue;
+    padding: 20px;
+}
