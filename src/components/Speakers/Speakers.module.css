@@ -51,17 +51,27 @@
 }
 
 .description{
-    /* background-color: aqua; */
+    background-color: #F3EDFF;
     text-align: center;
     width: 60%;
 }
 
 .description p{
-    /* color: #BF281C; */
+    color: #BF281C;
     padding: 10px;
     /* background-color: yellow; */
     font-size: 25px;
-    font-weight: 500;
+    font-weight: 550;
     background-color: #F3EDFF;
+}
+
+.description button{
+    color: white;
+    background-color: #BF281C;
+    border: 1px solid white;
+    padding: 10px 36px;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 15px;
 }
 
