@@ -1,4 +1,28 @@
 .container{
     margin: 0px 5%;
     border: 1px solid white;
+    background-color: green;
+    /* height: 400px; */
 }
+
+.speakersContainer{
+    background-color: orange;
+    margin: 5% 5% 0% 5%;
+    height: 300px;
+}
+
+.container h1{
+    color: var(--color-text);
+    font-weight: 700;
+    font-size: 40px;
+    letter-spacing: 1.75px;
+    /* margin-left: 50px; */
+}
+
+.container a{
+    background-color: yellow;
+    margin: 0px 5%;
+    color: white;
+    background-color: #A386FF;
+}
+
