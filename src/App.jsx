@@ -1,5 +1,6 @@
 
 import  styles from './App.module.css'
+import Footer from './components/Footer/Footer'
 import Navbar from './components/Navbar/Navbar'
 import Speakers from './components/Speakers/Speakers'
 import Sponsors from './components/Sponsors/Sponsors'
@@ -14,6 +15,7 @@ function App() {
       <Venue/>
       <Speakers/>
       <Sponsors/>
+      <Footer/>
     </section>
   )
 }

@@ -8,6 +8,13 @@ function Sponsors() {
       <h2> Thank You Sponsors! </h2>
         <p> Rails World could not have been possible without the generous support of Rails World sponsors and Rails Foundation members. </p>
       </div>
+      <div className={styles.sponsorsListContainer}> 
+      <div className={styles.sponsors}>
+        <div className={styles.sponsorsList}>
+        </div>
+        </div>
+
+      </div>
         
 
     </section>
