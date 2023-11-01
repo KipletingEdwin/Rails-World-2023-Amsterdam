@@ -1,12 +1,12 @@
 .container{
     margin: 0px 5%;
     border: 1px solid white;
-    background-color: green;
+    /* background-color: green; */
     /* height: 400px; */
 }
 
 .speakersContainer{
-    background-color: orange;
+    /* background-color: orange; */
     margin: 5% 5% 0% 5%;
     height: 300px;
 }
@@ -20,9 +20,48 @@
 }
 
 .container a{
-    background-color: yellow;
+    /* background-color: yellow; */
     margin: 0px 5%;
     color: white;
     background-color: #A386FF;
+    padding: 9px 36px;
+    border: 1px solid white;
+    text-decoration: none;
+    font-size: 21px;
+}
+
+.yearsOfRails{
+    /* background-color: #F3EDFF !important; */
+    border: 1px solid white;
+    display: flex;
+}
+
+.years20{
+    /* background-color: green; */
+    width: 40%;
+    text-align: center;
+    background-color: #F3EDFF;
+}
+
+.years20 h2{
+    color: #3B1D62;
+    background-color: #F3EDFF;
+    padding: 20px;
+    font-size: 46px;
+}
+
+.description{
+    /* background-color: aqua; */
+    text-align: center;
+    width: 60%;
+}
+
+.description p{
+    /* color: #BF281C; */
+    padding: 10px;
+    /* background-color: yellow; */
+    font-size: 25px;
+    font-weight: 500;
+    background-color: #F3EDFF;
 }
 
